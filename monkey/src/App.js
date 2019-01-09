@@ -1,31 +1,50 @@
 import React from "react";
 import Wrapper from "./components/Wrapper";
 import Title from "./components/Title";
-import FriendCard from "./components/FriendCard";
-import friends from "./friends.json";
-import monkeys from "./monkeys.json";
+import MonkCard from "./components/MonkCard";
+
+
+var monk1 = require('../src/assets/images/monk1.jpg');
+var monk2 = require('../src/assets/images/monk2.jpg');
+var monk3 = require('../src/assets/images/monk3.jpg');
+var monk4 = require('../src/assets/images/monk4.jpg');
+var monk5 = require('../src/assets/images/monk5.jpg');
+var monk6 = require('../src/assets/images/monk6.jpg');
+var monk7 = require('../src/assets/images/monk7.jpg');
+var monk8 = require('../src/assets/images/monk8.jpg');
+var monk9 = require('../src/assets/images/monk9.jpg');
+
 
 function App() {
   return (
     <Wrapper>
       <Title>Monkey Time</Title>
-      <FriendCard
-        name={friends[0].name}
-        image={friends[0].image}
-        occupation={friends[0].occupation}
-        location={friends[0].location}
+      <MonkCard
+        image={monk1}
       />
-      <FriendCard
-        name={friends[1].name}
-        image={friends[1].image}
-        occupation={friends[1].occupation}
-        location={friends[1].location}
+      <MonkCard
+        image={monk2}
       />
-      <FriendCard
-        name={friends[2].name}
-        image={friends[2].image}
-        occupation={friends[2].occupation}
-        location={friends[2].location}
+      <MonkCard
+        image={monk3}
+      />
+      <MonkCard
+        image={monk4}
+      />
+      <MonkCard
+        image={monk5}
+      />
+      <MonkCard
+        image={monk6}
+      />
+      <MonkCard
+        image={monk7}
+      />
+      <MonkCard
+        image={monk8}
+      />
+      <MonkCard
+        image={monk9}
       />
     </Wrapper>
   );
