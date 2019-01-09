@@ -8,4 +8,11 @@
   justify-content: space-around;
   align-content: flex-start;
   overflow: auto;
+  font-family: 'Happy Monkey', cursive;
+  
+}
+
+.title {
+  font-family: 'Happy Monkey', cursive;
+
 }
