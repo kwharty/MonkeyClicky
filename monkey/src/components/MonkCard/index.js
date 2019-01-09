@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function FriendCard(props) {
+function MonkCard(props) {
   return (
     <div className="card">
       <div className="img-container">
@@ -12,4 +12,4 @@ function FriendCard(props) {
   );
 }
 
-export default FriendCard;
+export default MonkCard;
