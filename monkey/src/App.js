@@ -56,38 +56,52 @@ const monkImgages = [
 
 ]
 
+//ORIGINAL LONG-WINDED ROUTING..:
+
+// function App() {
+//   return (
+//     <Wrapper>
+//       <Title>Monkey Time</Title>
+//       <MonkCard
+//         image={monk1}
+//       />
+//       <MonkCard
+//         image={monk2}
+//       />
+//       <MonkCard
+//         image={monk3}
+//       />
+//       <MonkCard
+//         image={monk4}
+//       />
+//       <MonkCard
+//         image={monk5}
+//       />
+//       <MonkCard
+//         image={monk6}
+//       />
+//       <MonkCard
+//         image={monk7}
+//       />
+//       <MonkCard
+//         image={monk8}
+//       />
+//       <MonkCard
+//         image={monk9}
+//       />
+//     </Wrapper>
+//   );
+// }
 
 function App() {
   return (
     <Wrapper>
       <Title>Monkey Time</Title>
       <MonkCard
-        image={monk1}
+        image={monkImgages[i].src}
+        clicked={monkImgages[i].clicked}
       />
-      <MonkCard
-        image={monk2}
-      />
-      <MonkCard
-        image={monk3}
-      />
-      <MonkCard
-        image={monk4}
-      />
-      <MonkCard
-        image={monk5}
-      />
-      <MonkCard
-        image={monk6}
-      />
-      <MonkCard
-        image={monk7}
-      />
-      <MonkCard
-        image={monk8}
-      />
-      <MonkCard
-        image={monk9}
-      />
+ 
     </Wrapper>
   );
 }
