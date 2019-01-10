@@ -56,7 +56,7 @@ const monkImgages = [
 
 ]
 
-//ORIGINAL LONG-WINDED ROUTING..:
+//ORIGINAL LONG-WINDED ROUTING:
 
 // function App() {
 //   return (
