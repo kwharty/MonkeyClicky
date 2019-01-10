@@ -14,6 +14,48 @@ var monk7 = require('../src/assets/images/monk7.jpg');
 var monk8 = require('../src/assets/images/monk8.jpg');
 var monk9 = require('../src/assets/images/monk9.jpg');
 
+const monkImgages = [
+
+  {
+    src: require('../src/assets/images/monk1.jpg'),
+    clicked: false,
+  },
+  {
+    src: require('../src/assets/images/monk2.jpg'),
+    clicked: false,
+  },
+
+  {
+    src: require('../src/assets/images/monk3.jpg'),
+    clicked: false,
+  },
+  {
+    src: require('../src/assets/images/monk4.jpg'),
+    clicked: false,
+  },
+  {
+    src: require('../src/assets/images/monk5.jpg'),
+    clicked: false,
+  },
+  {
+    src: require('../src/assets/images/monk6.jpg'),
+    clicked: false,
+  },
+  {
+    src: require('../src/assets/images/monk7.jpg'),
+    clicked: false,
+  },
+  {
+    src: require('../src/assets/images/monk8.jpg'),
+    clicked: false,
+  },
+  {
+    src: require('../src/assets/images/monk9.jpg'),
+    clicked: false,
+  }
+
+]
+
 
 function App() {
   return (
