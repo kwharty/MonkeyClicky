@@ -97,16 +97,19 @@ const monkImgages = [
 
 function App(monkImgages) {
 
-  let monkImg = monkImgages.src.map;
-  let monkImgClk = monkImgages.clicked.map;
+  // let monkImg = monkImgages.src.map;
+  // let monkImgClk = monkImgages.clicked.map;
+
   return (
     <Wrapper>
       <Title>Monkey Time</Title>
       <MonkCard
-        image = {monkImg}
-        clicked={monkImgClk}
+        // image={monkImg}
+        image={monk1}
+        // clicked={monkImgClk}
+        clicked={monk2}
       />
- 
+
     </Wrapper>
   );
 }
