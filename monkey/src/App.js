@@ -5,7 +5,7 @@ import Title from "./components/Title";
 import MonkCard from "./components/MonkCard";
 import { compileFunction } from "vm";
 
-
+//this code works though is not the way I'd like to do it
 var monk1 = require('../src/assets/images/monk1.jpg');
 var monk2 = require('../src/assets/images/monk2.jpg');
 var monk3 = require('../src/assets/images/monk3.jpg');
